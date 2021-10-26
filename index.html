@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <section class="oder">
+        <div class="oder_wrapper">
+            <div class="oder_header">
+                <h2>Оформление заказа</h2>
+                <a href="#" class="link_blue">↑ Назад к корзине</a>
+            </div>
+            <div class="oder_content">
+<!-- === Right Side === -->
+                <div class="oder_content_left">
+<!-- === Delivery block === -->
+                    <div class="delivery">
+                        <div class="delivery_header">
+                            <h3>Доставка</h3>
+                            <div class="delivery_btns">
+                                <button class="delivery_btns_item">
+                                    <img src="./images/btns/left.png" alt="">
+                                </button>
+                                <button class="delivery_btns_item active">
+                                    <img src="./images/btns/right.png" alt="">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="panels panels--delivery">
+
+                            <div class="form_radio_btn form_radio_btn--delivery">
+                                <input id="radio-post-russia" type="radio" name="delivery">
+                                <label class="panels_item" for="radio-post-russia">
+                                        <div class="panels_item_content">
+                                            <h4>Почта России, курьер — 24-26 сент.</h4>
+                                            <p class="panels_item_content_text">
+                                                ул. Академика Королева, 73/3, Петропавловск- Камчатский, 683000
+                                            </p>
+                                        </div>
+                                        <div class="panels_item_price">+367 <span class="sign">₽</span></div>
+                                </label>
+                            </div>
+
+                            <div class="form_radio_btn form_radio_btn--delivery">
+                                <input id="radio-deliver" type="radio" name="delivery">
+                                <label class="panels_item" for="radio-deliver">
+                                        <div class="panels_item_content">
+                                            <h4>Лабиринт, курьер — 25 сент.</h4>
+                                            <p class="panels_item_content_text">
+                                                Можайское шоссе, д. 21, кв. 50, Москва, 121471
+                                            </p>
+                                        </div>
+                                        <div class="panels_item_price">0 <span class="sign">₽</span></div>
+                                </label>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <a href="#" class="link_blue">Выбрать новое место и способ</a>
+<!-- === // Delivery block === -->
+
+<!-- === Data block === -->
+                    <div class="data">
+                        <div class="panels panels--data">
+
+                            <div class="form_radio_btn">
+                                <input id="radio-data-one" type="radio" name="data">
+                                <label class="panels_item" for="radio-data-one">
+                                        <div class="panels_item_content">
+                                            <h4>пн, 24 сен — ср, 26 сен</h4>
+                                            <p class="panels_item_content_text">
+                                                10:00–19:00
+                                            </p>
+                                        </div>
+                                </label>
+                            </div>
+
+                            <div class="form_radio_btn">
+                                <input id="radio-data-two" type="radio" name="data">
+                                <label class="panels_item" for="radio-data-two">
+                                        <div class="panels_item_content">
+                                            <h4>чт, 27 сен — пт, 28 сен</h4>
+                                            <p class="panels_item_content_text">
+                                                10:00–19:00
+                                            </p>
+                                        </div>
+                                </label>
+                            </div>
+                            <a href="#" class="link_blue link_blue--data">Другие дата и время</a>
+                        </div>
+
+                        <div class="data_checkboxes">
+                            <div class="data_checkboxes_item">
+                                <input type="checkbox" class="checkbox" id="status" name="happy" value="yes">
+                                <label class="label" for="status">Viber/СМС уведомления о статусе заказа</label>
+                            </div>
+                            <div class="data_checkboxes_item">
+                                <input type="checkbox" class="checkbox" id="delivery" name="happy" value="yes">
+                                <label class="label" for="delivery">Оставить у двери (бесконтактная доставка)</label>
+                            </div>
+                        </div>
+ 
+                    </div>
+<!-- === // Data block === -->
+                    
+<!-- Recipient  -->
+                    <div class="recipent">
+                        <h3>Получатель</h3>
+                        <div class="recipent_content">
+                            <div class="recipent_content_wrapper">
+                                <div class="recipent_content_item">
+                                    <div class="recipent_content_item_inner">
+                                        <label for="fullName">Имя и фамилия</label>
+                                        <select class="select" id="fullName">
+                                            <option value="">Вольфганг Вениаминович Константинопольский</option>
+                                            <option value="">Вольфганг Вениаминович Константинопольский</option>
+                                            <option value="">Вольфганг Вениаминович Константинопольский</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <a href="#" class="link_blue">Новый получатель</a>
+                            </div>
+
+                            <div class="recipent_content_wrapper">
+                                <div class="recipent_content_item">
+                                    <div class="recipent_content_item_inner">
+                                        <label for="fullName">Контактный телефон</label>
+                                        <select class="select" id="phone">
+                                            <option value="">+7 910 234-56-78</option>
+                                            <option value="">+7 910 234-56-78</option>
+                                            <option value="">+7 929 521-11-58</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <a href="#" class="link_blue">Новый телефон</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+<!-- // Recipient  -->
+
+<!-- Payment  -->
+                    <div class="payment">
+                        <h3>Оплата</h3>
+                        <div class="panels panels--payment">
+                            <div class="form_radio_btn form_radio_btn--payment">
+                                <input id="radio-2" type="radio" name="payment" value="2">
+                                <label class="panels_item panels_item--payment" for="radio-2">
+                                        <span class="payment_content_text">Предоплата на сайте</span>
+                                        <span class="payment_content_sale">Скидка –3<span class="sign">₽</span></span>
+                                </label>
+                            </div>
+                             
+                            <div class="form_radio_btn form_radio_btn--payment">
+                                <input id="radio-3" type="radio" name="payment" value="3">
+                                <label class="panels_item panels_item--payment" for="radio-3">
+                                    <span class="payment_content_text">Оплата при получении</span>
+                                </label>
+                            </div>
+                        </div>
+                        
+                    </div>
+                
+                </div>
+<!-- === // Right Side === -->
+
+<!-- === // Left Side === -->
+                <div class="oder_content_right">
+                    <div class="cart">
+                        <h3>В заказе 4 товара <span class="weight">(2 кг)</span></h3>
+                        <div class="cart_content">
+                            <ul>
+                                <li>
+                                    <span class="cart_content_field">Цена товаров</span>
+                                    <span class="cart_content_value">29 456 <span class="sign">₽</span></span>
+                                </li>
+                                <li>
+                                    <span class="cart_content_field">Все скидки</span>
+                                    <span class="cart_content_value">–7 732 <span class="sign">₽</span></span>
+                                </li>
+                                <li>
+                                    <span class="cart_content_field">Скидка за предоплату</span>
+                                    <span class="cart_content_value">–3<span class="sign">%</span></span>
+                                </li>
+                                <li>
+                                    <span class="cart_content_field">
+                                        Почта России, 
+                                        курьер, Академика Королева, 
+                                        73/3, Петропавловск-Камчатский, 683000
+                                        <span class="cart_content_field_data">24 сентября, 10:00–19:00</span>
+                                    </span>
+                                    <span class="cart_content_value">+367 <span class="sign">₽</span></span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    
+   <footer class="footer">
+        <div class="footer_inner">
+            <div class="footer_inner_payment">
+                <button class="pay_btn">Оформить и оплатить</button>
+                <p class="footer_inner_payment_text">
+                    <b>Возврат невозможен.</b> С выбранным 
+                    способом доставки этот заказ можно будет забрать только целиком. 
+                    Нельзя будет отказаться от 
+                    части товаров или вернуть весь заказ 
+                    <a href="#" class="link_blue link_blue--footer">Подробнее об этом</a>
+                </p>
+            </div>
+            <div class="footer_inner_total">
+                <span class="footer_inner_total_text">Итого к оплате на сайте:</span>
+                <span class="footer_inner_total_price">21 072 <span class="sign">₽</span></span>
+            </div>
+        </div>
+   </footer>
+
+</body>
+</html>

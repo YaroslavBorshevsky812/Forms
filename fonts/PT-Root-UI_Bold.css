@@ -1,0 +1,9 @@
+
+@font-face {
+	font-family: 'PTRootUIWebBold';
+	src:
+		url('PT-Root-UI_Bold.woff2') format('woff2'),
+		url('PT-Root-UI_Bold.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
