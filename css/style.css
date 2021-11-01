@@ -375,13 +375,19 @@ h5 {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); }
 
 @media (max-width: 1800px) {
-  .panels {
+  .oder_wrapper {
+    padding-left: 37px;
+    padding-right: 35px; }
+  .panels--delivery {
+    min-height: 110px; }
+  .panels--payment {
     flex-wrap: wrap; }
-  .form_radio_btn--delivery + .form_radio_btn--delivery {
-    margin-left: 0;
-    margin-top: 14px; }
+  .panels_item_content_text {
+    font-size: 14px; }
+  .panels_item_price {
+    font-size: 14px; }
   .oder_content_left {
-    max-width: 800px; }
+    max-width: 950px; }
   .recipent_content {
     flex-wrap: wrap; }
   .link_blue--data {
@@ -400,7 +406,9 @@ h5 {
   .footer_inner_total_price {
     margin-left: 40px; }
   .recipent_content_wrapper {
-    margin-bottom: 20px; } }
+    margin-bottom: 20px; }
+  h4 {
+    font-size: 18px; } }
 
 @media (max-width: 1500px) {
   .oder_header {
@@ -420,10 +428,6 @@ h5 {
     font-size: 18px; }
   h4 {
     font-size: 12px; }
-  .panels_item_content_text {
-    font-size: 14px; }
-  .panels_item_price {
-    font-size: 14px; }
   .cart_content {
     font-size: 12px; }
   .link_blue {
@@ -440,6 +444,11 @@ h5 {
     padding: 15px 10px; } }
 
 @media (max-width: 1200px) {
+  .panels {
+    flex-wrap: wrap; }
+  .form_radio_btn--delivery + .form_radio_btn--delivery {
+    margin-left: 0;
+    margin-top: 14px; }
   .oder_content_left {
     max-width: 450px; }
   .form_radio_btn + .form_radio_btn {
